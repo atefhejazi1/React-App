@@ -1,0 +1,242 @@
+.navbar {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.navbar-brand {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+}
+.navbar-brand .icons{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.nav-link {
+    color: black !important;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.nav-link:hover{
+  color: #019875;
+}
+
+/* section  1 */
+.section-backing {
+    background-image: url(../src/Components/Image/Blog1.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 80px;
+}
+.div-backing {
+    padding: 90px 0;
+}
+.div-backing h1 {
+    color: #fff;
+    font-size: 60px;
+    padding: 20px 0;
+    border-style: solid;
+    border-width: 4px;
+    border-left: none;
+    border-right: none;
+    width: 40%;
+}
+.div-backing .p-1 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.div-backing .p-2 {
+    color: #fff;
+    background-color: rgba(1, 152, 117, 0.7);
+    padding: 5px 25px;
+    border: 0;
+    font-size: 25px;
+    width: 30%;
+}
+
+/* section  2 */
+
+.section-grid {
+    padding: 60px 0;
+}
+.h1-grid {
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.div-grid img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 250px;
+}
+.div-grid h4 {
+    color: #85cebd;
+    padding: 10px 0;
+}
+.div-grid h4:hover {
+    color: #85cebd;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.div-grid p {
+    color: #404040;
+    font-size: 18px;
+}
+
+/* section 3 */
+
+.section-back {
+    background-image: url(../src/Components/Image/Blog1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div-back{
+    color: #fff;
+    padding: 80px 0;
+}
+.div-back h2{
+    padding: 10px 0;
+    font-size: 50px;
+}
+.div-back p{
+    font-size: 20px;
+}
+
+
+/* section 4 */
+
+.section-About{
+    padding: 50px 0;
+}
+.h2-About{
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.section-About .p3{
+    padding-top: 0px;
+    font-size: 20px;
+    width: 90%;
+}
+.section-About img{
+    margin-left: 180px;
+}
+.section-About .p4{
+    font-size: 20px;
+    width: 90%;
+    padding-top: 30px;
+}
+
+
+/* section 5 */
+
+.section-contact{
+    padding: 80px 0;
+    background-color: #FAFAFA;
+}
+.section-contact h2{
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.div-contact .p5{
+    font-size: 18px;
+}
+.div-contact .p6{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.div-contact span{
+    color: #85cebd;
+    font-size: 20px;
+}
+.div-contact span:hover{
+    color: #85cebd;
+    cursor: pointer;
+    text-decoration:underline ;
+}
+.div-contact input{
+    width: 50%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-radius: 5px;
+}
+.div-contact .input-text{
+    padding-bottom: 100px;
+}
+.div-contact button{
+    width: 50%;
+    border-radius: 5px;
+    font-size: 25px ;
+    background-color: #019875;
+    color: #fff;
+    border-color: #019875;
+    border-style: solid;
+}
+
+/* footer */
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+footer .data{
+    padding-left: 150px;
+}
+
+footer div p a{
+    color: #019875;
+    text-decoration: none;
+}
+footer .data p a:hover{
+    color: #019875;
+    text-decoration: underline;
+
+}
+footer .icon ul{
+    display: flex;
+}
+footer .icon{
+    margin-right: 70px;
+}
+footer .icon ul li{
+    margin-right: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+footer .icon ul li:hover{
+    color: #019875;
+}
+footer .icon .icons{
+    background-color: #019875;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 150px;
+    cursor: pointer;
+}
+footer .icon .icons:hover{
+   background-color:#019875;
+   opacity: 0.8;
+}
+
+footer .item{
+    position: absolute;
+    right: 90px;
+}
